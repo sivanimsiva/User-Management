@@ -9,15 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-
         <Route path="/" element={<Login />} />
-
         <Route path="/admin" element={<AdminDashboard />} />
-
         <Route path="/users" element={<UserList />} />
-
         <Route path="/service" element={<ServiceDashboard />} />
-
       </Routes>
     </BrowserRouter>
   );
